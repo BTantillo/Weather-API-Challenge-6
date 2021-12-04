@@ -51,15 +51,16 @@
 
 .search-bar{
     font-size: 24;
-    background-color: yellow;
+    background-color:lightgray;
     color: red;
     border-radius: 1px;
     border: solid;
     margin: 2px;
     max-width: 250px;
+    
       
 }
 
-.search-bar {
-    background-color: silver;
+.background-color {
+    background-color: lightskyblue;
 }

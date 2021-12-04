@@ -97,14 +97,26 @@ function neat(dt) {
 }
 
 function displayRecentSearches(searchArray){
-    previousSearch.innerHTML = "<h3>Recent Searches</h3>"
-    searchArray.forEach(city => {
-        let cityName = document.createElement("h3")
-        cityName.innerHTML = city
-        previousSearch.append(cityName)
-        
-        
-    });
+    previousSearch.innerHTML = "<h3>Recent Searches:</h3>"
+    let five = searchArray.slice(searchArray.length - 5)
+    if(searchArray.length > 5){
+       let five = searchArray.slice(searchArray.length - 5)
+       five.forEach(city => {
+           let cityName = document.createElement("h3")
+           cityName.innerHTML = city
+           previousSearch.append(cityName)
+           
+           
+       });
+   }else{
+       searchArray.forEach(city => {
+           let cityName = document.createElement("h3")
+           cityName.innerHTML = city
+           previousSearch.append(cityName)
+           
+           
+       });
+   }
     
 }
 
