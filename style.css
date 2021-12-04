@@ -1,7 +1,3 @@
-.search-header {
-    font-size: 20px;
-    font-weight: bold;
-}
 
 .weather-now {
     font-size: 24;
@@ -10,9 +6,7 @@
     border: solid;
     margin: 5px;
     max-width: 350px;
-    
-
-
+   
 }
 
 .forecast-date {
@@ -53,4 +47,19 @@
     margin: auto;
     background-color: burlywood;
 
+}
+
+.search-bar{
+    font-size: 24;
+    background-color: yellow;
+    color: red;
+    border-radius: 1px;
+    border: solid;
+    margin: 2px;
+    max-width: 250px;
+      
+}
+
+.search-bar {
+    background-color: silver;
 }

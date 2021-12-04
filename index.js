@@ -102,6 +102,7 @@ function displayRecentSearches(searchArray){
         cityName.innerHTML = city
         previousSearch.append(cityName)
         
+        
     });
     
 }
