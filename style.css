@@ -1,0 +1,56 @@
+.search-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.weather-now {
+    font-size: 24;
+    background-color:lightpink;
+    border-radius: 5px;
+    border: solid;
+    margin: 5px;
+    max-width: 350px;
+    
+
+
+}
+
+.forecast-date {
+    font-size: 25px;
+}
+
+.background-blue{
+    font-size: 24;
+    background-color:cornflowerblue;
+    border-radius: 3px;
+    border: solid;
+    margin: 5px;
+    max-width: 250px;
+    float: left  
+}
+
+.background-green{
+    background-color: darkgreen;
+    max-width: 300px;
+    
+}
+
+.background-yellow{
+    background-color: yellow;
+    max-width: 300px;
+
+}
+
+.background-red {
+    background-color: tomato;
+    max-width: 300px;
+
+}
+
+.header {
+    font: 56px;
+    color: blueviolet;
+    margin: auto;
+    background-color: burlywood;
+
+}
