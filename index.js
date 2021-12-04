@@ -21,6 +21,7 @@ function getWeather(cityName) {
         .then((newData) => {
             console.log(newData)
             TodaysWeather(newData)
+            futureForecast.innerHTML = "";
             for (let i = 0; i < 6; i++) {
                 renderSingleDay(newData.daily[i]) 
             }
