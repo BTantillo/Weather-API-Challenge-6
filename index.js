@@ -7,7 +7,7 @@ const previousSearch = document.querySelector("#previousSearch")
 const recentSearches = JSON.parse(localStorage.getItem("recentSearches")) || []
 
 function getWeather(cityName) {
-    const weatherApi = `http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=6e3deac90f2db04b2c1795802533cf7c`
+    const weatherApi = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=6e3deac90f2db04b2c1795802533cf7c`
 
     fetch(weatherApi)
     .then((data)=> data.json())
